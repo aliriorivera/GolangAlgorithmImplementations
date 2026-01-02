@@ -1,5 +1,10 @@
 package linkedlist
 
+/*
+Node representa el nodo que sera usado en todas las implementacion de linked list
+es importante que en Next sea un puntero para que no haya dependencia circular
+**/
+
 type Node struct {
 	Value int
 	Next  *Node
